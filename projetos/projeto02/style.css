@@ -1,0 +1,118 @@
+@charset  'UTF-8' ;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    max-width: 1320px;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-right: -29px;
+    
+    
+}
+header > h1{
+    font-family: var(--fonte2);
+    padding-top: 60px;
+    font-size: 10vw;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+    
+}
+        
+header > p{
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-top: -20px;
+    font-family: var(--fonte1);
+    
+    
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.link:hover{
+    text-decoration: underline;
+}
+
+main{
+    font-family: var(--fonte3);
+    font-size: 3.3vw;
+    padding: 10px 0px 50px 10px;
+}
+section{
+    height: 120vh;
+    margin: 30px;
+}
+section > article{
+    width: 530px;
+    height: 100%;
+
+}
+.segundo{
+    background: yellow url(imagens/background001.jpg) center center no-repeat fixed;
+    margin: 0 -29px;
+    position: relative;
+
+}
+.container{
+    height: 550px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+    margin: 0px 20px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-118%, -50%);
+    
+}   
+.texto-imagem{
+    margin-top: -20px;
+}
+.terceiro{
+    height: 200vh;
+}
+.quarto{
+    background: gray url(imagens/background002.jpg) center center no-repeat fixed;
+    margin: 0 -29px;
+    position: relative;
+    
+}
+.container2{
+    height: 550px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+    margin: 0px 20px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-118%, -50%)
+;
+}
+
+.quinto{
+    height: 200vh;
+}
+
+footer{
+    background-color: black;
+    margin-right: -29px;
+    color: white;
+    font-family: var(--fonte1);
+    text-align: center;
+    padding: 10px
+
+}
