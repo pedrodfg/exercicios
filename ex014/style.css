@@ -1,0 +1,17 @@
+@charset  'UTF-8';
+body{
+    background-color: coral;
+    font-family: sans-serif;
+
+}
+h1#principal{
+    color: black;
+    text-align: center;
+}
+
+h1{
+    color: darkolivegreen;
+}
+h2{
+    color: darkgrey;
+}

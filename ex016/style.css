@@ -1,0 +1,51 @@
+@charset 'UTF-8';
+
+header{
+    background-color: gray;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+
+nav{
+    background-color: rgb(179, 176, 176);
+    padding: 5px;
+    border: 1px solid black;
+}
+
+nav > a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: brown;
+}
+nav > a:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+
+main{
+    background-color: rgb(100, 99, 99);
+    
+
+}
+main > section > article{
+    background-color: lightslategray;
+    border: 1px solid black;
+}
+main > section{
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+footer{
+    margin:0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    border: 1px solid white;
+    
+}
+footer > p{
+    margin: 0px;
+}
