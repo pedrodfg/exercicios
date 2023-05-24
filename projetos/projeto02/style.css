@@ -1,24 +1,26 @@
-@charset  'UTF-8' ;
+@charset  "UTF-8" ;
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 *{
-    
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;    
+}
+:root{
+ --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
-    margin: 0px;
-    padding: 0px;
 }
+   
 body{
-    max-width: 1320px;
+    display: block;
+    min-height: 100vh;
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
-    margin-right: -29px;
-    
-    
+    width: 100%;
+  
 }
 header > h1{
     font-family: var(--fonte2);
@@ -52,64 +54,38 @@ main{
     padding: 10px 0px 50px 10px;
 }
 section{
-    height: 120vh;
-    margin: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
 }
-section > article{
-    width: 530px;
-    height: 100%;
-
-}
-.segundo{
-    background: yellow url(imagens/background001.jpg) center center no-repeat fixed;
-    margin: 0 -29px;
-    position: relative;
-
-}
-.container{
-    height: 550px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.274);
-    margin: 0px 20px;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-118%, -50%);
-    
-}   
-.texto-imagem{
-    margin-top: -20px;
-}
-.terceiro{
-    height: 200vh;
-}
-.quarto{
-    background: gray url(imagens/background002.jpg) center center no-repeat fixed;
-    margin: 0 -29px;
-    position: relative;
+  
+.imagem1{
+    background: darkgray url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    margin-left: -10px;
     
 }
-.container2{
-    height: 550px;
+
+.imagem1 > p{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.438);
     color: white;
-    background-color: rgba(0, 0, 0, 0.274);
-    margin: 0px 20px;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-118%, -50%)
-;
 }
 
-.quinto{
-    height: 200vh;
+.imagem2{
+    background: darkgray url(imagens/background002.jpg) center center no-repeat fixed;
+    margin-left: -10px;
+  
+    background-size: cover;
 }
-
+.imagem2 > p{
+    background-color: rgba(0, 0, 0, 0.438);
+    display: inline-block;
+    color: white;
+}
 footer{
     background-color: black;
-    margin-right: -29px;
     color: white;
     font-family: var(--fonte1);
     text-align: center;
