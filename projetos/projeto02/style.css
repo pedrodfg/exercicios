@@ -76,7 +76,6 @@ section{
 .imagem2{
     background: darkgray url(imagens/background002.jpg) center center no-repeat fixed;
     margin-left: -10px;
-  
     background-size: cover;
 }
 .imagem2 > p{
