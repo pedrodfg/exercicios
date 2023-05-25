@@ -6,7 +6,7 @@
     padding: 0px;    
 }
 :root{
- --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
@@ -64,24 +64,27 @@ section{
     background: darkgray url(imagens/background001.jpg) right center no-repeat fixed;
     background-size: cover;
     margin-left: -10px;
-    
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.342);
 }
 
 .imagem1 > p{
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.438);
     color: white;
+    
 }
 
 .imagem2{
     background: darkgray url(imagens/background002.jpg) center center no-repeat fixed;
     margin-left: -10px;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
 }
 .imagem2 > p{
     background-color: rgba(0, 0, 0, 0.438);
     display: inline-block;
     color: white;
+        
 }
 footer{
     background-color: black;
