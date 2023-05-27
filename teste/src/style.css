@@ -1,0 +1,186 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+@font-face {
+    font-family: 'Pocket' ;
+    src: url(fonte/Pocket\ Monk.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.root {
+    size: 62.5%
+    }
+
+
+    *::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1e9e9;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #282828;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    
+}
+body{
+    background-color: #b4acc2;
+    
+}
+    header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+    
+}
+
+header  > span{
+    text-align: center;
+    font-family: 'Pocket', sans-serif;
+    font-size: 100px;
+    font-weight: 800;
+    padding: 8px;
+    margin-top: 30px;
+    color: #FFCC01;
+    text-shadow: 10px 10px 1px rgba(16, 42, 185, 0.418);
+    font-variant: small-caps;
+    
+}
+header > span:hover{
+    transform: scale(1.1);
+}
+.pokebola{
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+
+  
+}
+.pokebola:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.mudar{
+    height: 50px;
+    width: 50px;
+    padding: 8px 
+}
+.mudar:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+main .listagem-pokemon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+} 
+main .cartao-pokemon{
+    background-color: #d8e3eca9;
+    width: 200px;
+    height: 40vh;
+    padding: 15px 15px 0px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.452);
+    
+
+}
+.cartao-pokemon:hover{
+    transform: scale(1.02);
+    background-color: #0f1113ad;
+    color: lightgray;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px;
+}
+main .nome{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+    main .numero{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+}
+main .gif{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.tipos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    
+}
+.tipo-fogo{
+    background-color: #FF9D55;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 15px;
+    margin-right: 10px;
+}
+.tipo-lutador{
+    background-color: #CE416B;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 15px;
+    
+}
+.tipo-agua{
+    background-color: #5090D6;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+.tipo-terra{
+    background-color: #D97845;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+.tipo-grama{
+    background-color: #63BC5A;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+.tipo-sombrio{
+    background-color: #5A5465;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 15px;
+}
+.descricao{
+    max-height: 9vh;
+    overflow-y: scroll;
+}
+.descricao > p{
+  font-family: 'Poppins', sans-serif; 
+  text-align:left;
+  font-size: 16px;
+
+}
