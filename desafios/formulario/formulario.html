@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Cadastro Simples</h1>
+        <p id="subtitulo">Complete suas informações</p>
+    </header>
+    <main>
+        <form action="">
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+            <div class="campo">
+                    <label for="email"><strong>E-mail</strong></label>
+                    <input type="email" name="email" id="email" required>
+            </div>
+            <div class="sexo">
+                <label for="sexo"><strong>Sexo:</strong></label>
+                <label for="sexo"><input type="radio" name="sexo" value="feminino" checked>Feminino</label>
+                <label for="sexo"><input type="radio" name="sexo" value="masculino">Masculino</label>
+                <label for="sexo"><input type="radio" name="sexo" value="outro">Outro</label>
+            </div>
+            <div class="campo">
+                <label for="faixa-etaria"><strong>Faixa Etária</strong></label>
+                <select name="faixa-etaria" id="idade">
+                    <option selected disabled>Selecione</option>
+                    <option>1-10</option>
+                    <option>11-20</option>
+                    <option>21-30</option>
+                    <option>31-40</option>
+                    <option>41-50</option>
+                    <option>51-60</option>
+                    <option>61+</option>
+                </select>
+            </div>
+            <fieldset class="grupo">
+                <div class="campo-um">
+                    <label><strong>Selecione seu nível de escolaridade:</strong> </label> <br> <br>
+                    <input type="checkbox" id="escolaridade1" nome="escolaridade1" value="Fundamental Completo"> 
+                    <label for="escolaridade1">Ensino Fundamental completo</label> <br>
+                    <input type="checkbox" id="escolaridade2" nome="escolaridade2" value="Ensino Médio Completo">
+                    <label for="escolaridade2">Ensino Médio completo</label> <br>
+                    <input type="checkbox" id="escolaridade3" nome="escolaridade3" value="Ensino Superior Incompleto">
+                    <label for="escolaridade3">Ensino Superior incompleto</label> <br>
+                    <input type="checkbox" id="escolaridade4" nome="escolaridade4" value="Ensino Superior Completo">
+                    <label for="escolaridade4">Ensino Superior completo</label> <br>
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label for=""><strong>Conte um pouco da sua experiência de vida</strong></label>
+                <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
+            </div>
+            <button type="submit" class="botao"><strong>Concluir</strong></button>
+            
+        </form>
+    </main>
+</body>
+</html>
