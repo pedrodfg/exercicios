@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(//projetos/projeto03/src/imagens/bg-desktop.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color:black;
+}
+.logo{
+    padding-top: 20px;
+    width: 300px;
+    height: 150px;
+}
